@@ -310,7 +310,8 @@ var webDev = [
   },
   {
     key: "B0182YJ4V6",
-    category: "Internet and Web Development Fundamentals",
+    category: "Web Development",
+    name: "Internet and Web Development Fundamentals",
     seller: "YouAccel Training",
     price: 99.99,
     priceFraction: "50",
