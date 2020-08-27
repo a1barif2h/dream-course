@@ -3,6 +3,8 @@ import fakeData from "../../fakeData";
 import { useState } from "react";
 import Product from "../Product/Product";
 import { Row, Col } from "react-bootstrap";
+import Cart from "../Cart/Cart";
+import "./Shop.css";
 
 const Shop = () => {
   const first15 = fakeData.slice(0, 15);
@@ -10,7 +12,6 @@ const Shop = () => {
   const [cart, setCart] = useState([]);
 
   const addProduct = (product) => {
-    console.log("product added", product);
     const newCart = [...cart, product];
     setCart(newCart);
   };
@@ -19,13 +20,16 @@ const Shop = () => {
       <Col md={10}>
         <div>
           {products.map((product) => (
-            <Product addProduct={addProduct} product={product}></Product>
+            <Product
+              key={product.id}
+              addProduct={addProduct}
+              product={product}
+            ></Product>
           ))}
         </div>
       </Col>
-      <Col md={2}>
-        <h1>this is cart</h1>
-        <h5>items add: {cart.length}</h5>
+      <Col className="aside" md={2}>
+        <Cart cart={cart}></Cart>
       </Col>
     </Row>
   );

@@ -1,10 +1,11 @@
 var webDev = [
   {
     key: "B00OSTKZWM",
+    id: 41,
     category: "Web Development",
     name: "The Complete 2020 Web Development Bootcamp",
     seller: "Dr.Angela Yu",
-    price: "134",
+    price: 134,
     priceFraction: "99",
     stock: 96,
     star: 4.7,
@@ -19,10 +20,11 @@ var webDev = [
   },
   {
     key: "B01H2E0J5M",
+    id: 42,
     category: "Web Development",
     name: "The Web Developer Bootcamp",
     seller: "Colt Steele",
-    price: "134.99",
+    price: 134.99,
     priceFraction: "99",
     stock: 5,
     star: 4.6,
@@ -37,10 +39,11 @@ var webDev = [
   },
   {
     key: "B0713WPJKX",
+    id: 43,
     category: "Web Development",
     name: "The Complete Web Developer Course 2.0",
     seller: "Rob Percival, Codestars by Rob Percival",
-    price: "134.99",
+    price: 134.99,
     priceFraction: "99",
     stock: 87,
     star: 4.5,
@@ -55,10 +58,11 @@ var webDev = [
   },
   {
     key: "B01LPZD1N6",
+    id: 44,
     category: "Web Development",
     name: "The Complete Front-End Web Development Course!",
     seller: "Joseph Delgadilo, Nick Germaine",
-    price: "134.99",
+    price: 134.99,
     priceFraction: "90",
     stock: 20,
     star: 4.3,
@@ -73,10 +77,11 @@ var webDev = [
   },
   {
     key: "B01N1SE4EP",
+    id: 45,
     category: "Full Stack Web Development",
     name: "Beginner Full Stack Web Development: HTML, CSS, React & Node",
     seller: "Mark Wahlbeck",
-    price: "134.99",
+    price: 134.99,
     priceFraction: "99.99",
     stock: 50,
     star: 4.5,
@@ -91,10 +96,11 @@ var webDev = [
   },
   {
     key: "B017LDNLIG",
+    id: 46,
     category: "Web Development",
     name: "The Complete 2020 Web Development Course - Build 15 Projects",
     seller: "Development Island (UK)",
-    price: "134.99",
+    price: 134.99,
     priceFraction: "94",
     stock: 85,
     star: 4.5,
@@ -109,6 +115,7 @@ var webDev = [
   },
   {
     key: "B018IZ0SWI",
+    id: 47,
     category: "Web Development",
     name: "Web Development Masterclass - Complete Certificate Course",
     seller: "YouAccel Training",
@@ -128,6 +135,7 @@ var webDev = [
   },
   {
     key: "B01N4HS7B8",
+    id: 48,
     category: "Responsive Design",
     name: "Learn Responsive Web Development from Scratch",
     seller: "Eduonix-Tech",
@@ -147,6 +155,7 @@ var webDev = [
   },
   {
     key: "B01LX0JZUM",
+    id: 49,
     category: "Web Development",
     name: "Web Development - Complete Fast Track Course",
     seller: "Ruben Giuliani",
@@ -165,6 +174,7 @@ var webDev = [
   },
   {
     key: "B072NYXDLY",
+    id: 50,
     category: "Web Development",
     name: "Practical Web Development: 22 Courses in 1",
     seller: "Creative Online School",
@@ -183,6 +193,7 @@ var webDev = [
   },
   {
     key: "B071RK857H",
+    id: 51,
     category: "Web Development",
     name: "The Full Stack Web Development",
     seller: "Eduonix-Tech",
@@ -200,6 +211,7 @@ var webDev = [
   },
   {
     key: "B06XWMQRS6",
+    id: 52,
     category: "JavaScript",
     name: "Learn JavaScript for Web Development",
     seller: "Irfan Dayan",
@@ -219,6 +231,7 @@ var webDev = [
   },
   {
     key: "B01N41AKT3",
+    id: 53,
     category: "Front End Web Development",
     name: "Front End Web Development For Beginners (A Practical Guide)",
     seller: "Learn Tech Plus",
@@ -237,6 +250,7 @@ var webDev = [
   },
   {
     key: "B06XY8W1DC",
+    id: 54,
     category: "Django",
     name: "Django 2.2 & Python | The Ultimate Web Development Bootcamp",
     seller: "Nick Walter",
@@ -256,6 +270,7 @@ var webDev = [
   },
   {
     key: "B01N0VVQ13",
+    id: 55,
     category: "Front End Web Development",
     name: "Complete Responsive Web Development: 4 courses in 1",
     seller: "Creative Online School",
@@ -274,6 +289,7 @@ var webDev = [
   },
   {
     key: "B01JOT42JW",
+    id: 56,
     category: "Web Development",
     name: "Introduction to Web Development",
     seller: "Framework Television Inc, Mark Lassoff",
@@ -292,6 +308,7 @@ var webDev = [
   },
   {
     key: "B06Y5PY61J",
+    id: 57,
     category: "React",
     name: "React JS Web Development - The Essentials Bootcamp",
     seller: "David Joseph Katz",
@@ -310,6 +327,7 @@ var webDev = [
   },
   {
     key: "B0182YJ4V6",
+    id: 58,
     category: "Web Development",
     name: "Internet and Web Development Fundamentals",
     seller: "YouAccel Training",
@@ -329,6 +347,7 @@ var webDev = [
   },
   {
     key: "B01GL7EB50",
+    id: 59,
     category: "Home Business",
     name: "Running a Web Development Business: The Complete Guide",
     seller: "Evan Kimbrell",
@@ -348,6 +367,7 @@ var webDev = [
   },
   {
     key: "B06XKH29C8",
+    id: 60,
     category: "Web Development",
     name: "The Essential Web Developer Course - Build 12 Websites",
     seller: "Robert Kanaat",

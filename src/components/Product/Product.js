@@ -10,7 +10,6 @@ import "./Product.css";
 import { Button, Row, Col } from "react-bootstrap";
 
 const Product = (props) => {
-  //   console.log(props);
   const {
     category,
     features,
@@ -27,12 +26,12 @@ const Product = (props) => {
   return (
     <div className="product-container">
       <Row>
-        <Col md={4}>
+        <Col lg={4}>
           <div className="product-img">
             <img src={img} alt="" />
           </div>
         </Col>
-        <Col md={8}>
+        <Col lg={8}>
           <div className="product-detail">
             <h4>{"For " + category} </h4>
             <h2>{name} </h2>
