@@ -20,6 +20,16 @@ const Cart = (props) => {
       <p>Enrolled Price: ${Number(total.toFixed(2))} </p>
       <p>25% off: {Number(off25.toFixed(2))} </p>
       <p>Grand Total: {Number(grandTotal.toFixed(2))} </p>
+      <p>
+        <small>Enroll list: </small>
+      </p>
+      <ol>
+        {cart.map((name) => (
+          <li>
+            <small>{name.name}</small> ${name.price}
+          </li>
+        ))}
+      </ol>
     </div>
   );
 };
