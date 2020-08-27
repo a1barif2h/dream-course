@@ -18,8 +18,8 @@ const Cart = (props) => {
       <p>Purchase $500 get 25% off</p>
       <h6>Items Enrolled: {cart.length} </h6>
       <p>Enrolled Price: ${Number(total.toFixed(2))} </p>
-      <p>25% off: {Number(off25.toFixed(2))} </p>
-      <p>Grand Total: {Number(grandTotal.toFixed(2))} </p>
+      <p>25% off: ${Number(off25.toFixed(2))} </p>
+      <p>Grand Total: ${Number(grandTotal.toFixed(2))} </p>
       <p>
         <small>Enroll list: </small>
       </p>
