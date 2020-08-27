@@ -22,24 +22,24 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#features" className="special">
-              <a href="/home">Home</a>
+              Home
             </Nav.Link>
             <Nav.Link href="#pricing" className="special">
-              <a href="/business">Business</a>
+              Business
             </Nav.Link>
             <NavDropdown title="Catagories" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
-                <a href="/web-development">Web Development</a>
+                Web Development
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                <a href="/graphic-design">Graphic Design</a>
+                Graphic Design
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">
-                <a href="/2d-3d-design">2d/3d Design</a>
+                2d/3d Design
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                <a href="/dream-course">Dream Course</a>
+                Dream Course
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

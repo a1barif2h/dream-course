@@ -29,7 +29,7 @@ const Shop = () => {
         </div>
       </Col>
       <Col className="aside" md={2}>
-        <Cart cart={cart}></Cart>
+        <Cart key={cart.id} cart={cart}></Cart>
       </Col>
     </Row>
   );
